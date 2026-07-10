@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://workbuddy-guide.pages.dev/">
+    <img src="./assets/workbuddy-guide-banner.png" alt="The WorkBuddy Bluebook: From your first task to an AI team" width="100%">
+  </a>
+</p>
+
 <h1 align="center">The WorkBuddy Bluebook</h1>
 
 <p align="center"><strong>From your first task to an AI team</strong></p>

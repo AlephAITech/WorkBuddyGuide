@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://workbuddy-guide.pages.dev/">
+    <img src="./assets/workbuddy-guide-banner.png" alt="WorkBuddy 实战蓝皮书：从第一项任务，到一支 AI 团队" width="100%">
+  </a>
+</p>
+
 <h1 align="center">WorkBuddy 实战蓝皮书</h1>
 
 <p align="center"><strong>从第一项任务，到一支 AI 团队</strong></p>
