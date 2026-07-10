@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 import { withMermaid } from "vitepress-plugin-mermaid";
 
 import { bluebookSidebar } from "./sidebar";
+import { createPageDescription, createSeoHead } from "./seo";
 
 const siteUrl = process.env.VITEPRESS_SITE_URL || "https://workbuddy-guide.pages.dev";
 
@@ -13,10 +14,14 @@ export default withMermaid(
     description: "从安装使用到 AI 工作系统：27 章 WorkBuddy 实战指南与团队落地方法。",
     cleanUrls: true,
     lastUpdated: true,
-    srcExclude: ["**/source.md"],
+    srcExclude: ["**/source.md", "plans/**"],
     sitemap: {
       hostname: siteUrl,
     },
+    transformPageData: (pageData, { siteConfig }) => ({
+      description: createPageDescription(siteConfig.srcDir, pageData),
+    }),
+    transformHead: (context) => createSeoHead(siteUrl, context),
     head: [
       ["meta", { name: "theme-color", content: "#d8f238" }],
       ["meta", { name: "author", content: "WorkBuddy Guide Contributors" }],
@@ -26,15 +31,6 @@ export default withMermaid(
           name: "keywords",
           content:
             "WorkBuddy,WorkBuddy 教程,AI Agent,AI 工作系统,Skills,MCP,自动化,多智能体,职场 AI",
-        },
-      ],
-      ["meta", { property: "og:type", content: "website" }],
-      ["meta", { property: "og:title", content: "WorkBuddy 实战蓝皮书" }],
-      [
-        "meta",
-        {
-          property: "og:description",
-          content: "从第一项任务到一支 AI 团队，把 WorkBuddy 真正用进工作。",
         },
       ],
     ],
