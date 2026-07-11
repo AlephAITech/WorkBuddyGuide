@@ -24,7 +24,7 @@
 
 ![](assets/004_image_LG3MbcWpvo.png)
 
-1. 按安装向导完成安装并启动 WorkBuddy。
+2. 按安装向导完成安装并启动 WorkBuddy。
 
 ![](assets/005_image_CMvYbYWFOo.png)
 
@@ -34,7 +34,7 @@
 
 ![](assets/008_image_DjcGbKYJSo.png)
 
-1. 进入准备运行环境
+3. 进入准备运行环境
 
 ![](assets/009_image_Q0l3bAkUPo.png)
 
@@ -46,7 +46,7 @@
 
 ![](assets/011_image_UlJcbVqX7o.png)
 
-1. 从“应用程序”启动；
+2. 从“应用程序”启动；
 
 ![](assets/012_image_LtqPbQ2z6o.png)
 
