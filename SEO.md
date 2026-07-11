@@ -20,11 +20,11 @@ These require ownership of the relevant search-engine accounts and are not
 stored in the repository:
 
 1. Add the production site to Google Search Console.
-2. Submit `https://workbuddy-guide.pages.dev/sitemap.xml`.
+2. Submit `https://workbuddy.homes/sitemap.xml`.
 3. Add the site to Bing Webmaster Tools and submit the same sitemap.
 4. Add the site to Baidu Search Resource Platform for mainland-China discovery.
-5. If a custom domain is adopted, update `VITEPRESS_SITE_URL`, `robots.txt`, and
-   the search-engine properties before making that domain canonical.
+5. Keep `https://workbuddy.homes` as the only canonical origin. Permanently
+   redirect the legacy `*.pages.dev` hostname and `www.workbuddy.homes` to it.
 
 Do not add verification tokens as placeholders. Add the exact token supplied by
 the relevant search platform only when account ownership is available.

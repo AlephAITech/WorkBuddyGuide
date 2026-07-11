@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://workbuddy-guide.pages.dev/">
+  <a href="https://workbuddy.homes/">
     <img src="./assets/workbuddy-guide-banner.png" alt="WorkBuddy 实战蓝皮书：从第一项任务，到一支 AI 团队" width="100%">
   </a>
 </p>
@@ -10,7 +10,7 @@
 
 <p align="center">
   简体中文 · <a href="./README_en.md">English</a> ·
-  <a href="https://workbuddy-guide.pages.dev/">在线阅读</a> ·
+  <a href="https://workbuddy.homes/">在线阅读</a> ·
   <a href="./docs/reading-guide.md">阅读指南</a> ·
   <a href="./CONTRIBUTING.md">参与共创</a>
 </p>
@@ -19,7 +19,7 @@
 
 ## 在线阅读
 
-推荐访问 **[workbuddy-guide.pages.dev](https://workbuddy-guide.pages.dev/)** 阅读。网站提供完整侧边栏、全文搜索、章节目录、深色模式、流程图和移动端适配。
+推荐访问 **[workbuddy.homes](https://workbuddy.homes/)** 阅读。网站提供完整侧边栏、全文搜索、章节目录、深色模式、流程图和移动端适配。
 
 GitHub 适合了解项目和参与贡献；真正阅读蓝皮书时，网站体验更完整。
 
@@ -67,7 +67,7 @@ npm run docs:preview
 - 岗位路线图与行业工作流。
 - 网站导航、搜索、样式和无障碍体验改进。
 
-请先阅读[贡献指南](./CONTRIBUTING.md)。如果暂时不想改代码，也可以直接提交 [Issue](https://github.com/AlephMuYe/WorkBuddyGuide/issues)。
+请先阅读[贡献指南](./CONTRIBUTING.md)。如果暂时不想改代码，也可以直接提交 [Issue](https://github.com/AlephAITech/WorkBuddyGuide/issues)。
 
 ## 目录结构
 

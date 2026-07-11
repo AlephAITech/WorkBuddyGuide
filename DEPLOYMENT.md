@@ -4,7 +4,7 @@
 
 ## Cloudflare Pages 设置
 
-在 Cloudflare 控制台选择 **Workers & Pages → Create application → Pages → Import an existing Git repository**，授权并选择 `AlephMuYe/WorkBuddyGuide`。
+在 Cloudflare 控制台选择 **Workers & Pages → Create application → Pages → Import an existing Git repository**，授权并选择 `AlephAITech/WorkBuddyGuide`。
 
 使用以下配置：
 

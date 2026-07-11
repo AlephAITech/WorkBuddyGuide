@@ -11,6 +11,9 @@
   --wb-body: "Avenir Next", Avenir, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   --wb-shadow: 4px 4px 0 var(--wb-ink);
 
+  --vp-font-family-base: var(--wb-body);
+  --vp-font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+
   --vp-c-brand-1: #355e18;
   --vp-c-brand-2: #477622;
   --vp-c-brand-3: #23420f;

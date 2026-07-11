@@ -1,9 +1,9 @@
 import { defineAsyncComponent } from "vue";
-import DefaultTheme from "vitepress/theme";
+import DefaultTheme from "vitepress/theme-without-fonts";
 import GroupQrMenu from "./components/GroupQrMenu.vue";
 import HomePage from "./components/HomePage.vue";
 
-import "@fontsource/silkscreen/400.css";
+import "./fonts.css";
 import "./iconfont.css";
 import "./style.css";
 

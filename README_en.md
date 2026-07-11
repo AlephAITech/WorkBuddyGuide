@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://workbuddy-guide.pages.dev/">
+  <a href="https://workbuddy.homes/">
     <img src="./assets/workbuddy-guide-banner.png" alt="The WorkBuddy Bluebook: From your first task to an AI team" width="100%">
   </a>
 </p>
@@ -10,7 +10,7 @@
 
 <p align="center">
   English · <a href="./README.md">简体中文</a> ·
-  <a href="https://workbuddy-guide.pages.dev/">Read Online</a> ·
+  <a href="https://workbuddy.homes/">Read Online</a> ·
   <a href="./docs/reading-guide.md">Reading Guide</a> ·
   <a href="./CONTRIBUTING_en.md">Contribute</a>
 </p>
@@ -19,7 +19,7 @@
 
 ## Read Online
 
-The recommended reading experience is **[workbuddy-guide.pages.dev](https://workbuddy-guide.pages.dev/)**. The website provides full navigation, local search, page outlines, dark mode, rendered diagrams, and mobile support.
+The recommended reading experience is **[workbuddy.homes](https://workbuddy.homes/)**. The website provides full navigation, local search, page outlines, dark mode, rendered diagrams, and mobile support.
 
 The book is currently written primarily in Simplified Chinese. English contributions and translation proposals are welcome.
 
@@ -66,7 +66,7 @@ Contributions are welcome, including:
 - improvements to navigation, search, design, and accessibility;
 - English translations.
 
-Read the [Contribution Guide](./CONTRIBUTING_en.md) or open an [Issue](https://github.com/AlephMuYe/WorkBuddyGuide/issues).
+Read the [Contribution Guide](./CONTRIBUTING_en.md) or open an [Issue](https://github.com/AlephAITech/WorkBuddyGuide/issues).
 
 ## Deployment
 

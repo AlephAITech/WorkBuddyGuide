@@ -168,7 +168,7 @@
       </div>
       <div class="wb-community__actions">
         <a class="wb-button wb-button--acid" href="/community/contributing">参与共创</a>
-        <a class="wb-button wb-button--dark-outline" href="https://github.com/AlephMuYe/WorkBuddyGuide">前往 GitHub</a>
+        <a class="wb-button wb-button--dark-outline" href="https://github.com/AlephAITech/WorkBuddyGuide">前往 GitHub</a>
       </div>
       <i class="hn hn-book wb-community__icon" aria-hidden="true"></i>
     </section>

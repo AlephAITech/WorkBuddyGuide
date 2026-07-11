@@ -58,7 +58,7 @@ export default defineConfig({
       ],
       sidebar: bluebookSidebar,
       socialLinks: [
-        { icon: "github", link: "https://github.com/AlephMuYe/WorkBuddyGuide" },
+        { icon: "github", link: "https://github.com/AlephAITech/WorkBuddyGuide" },
       ],
       search: {
         provider: "local",
@@ -79,7 +79,7 @@ export default defineConfig({
         },
       },
       editLink: {
-        pattern: "https://github.com/AlephMuYe/WorkBuddyGuide/edit/main/docs/:path",
+        pattern: "https://github.com/AlephAITech/WorkBuddyGuide/edit/main/docs/:path",
         text: "在 GitHub 上改进此页",
       },
       footer: {
