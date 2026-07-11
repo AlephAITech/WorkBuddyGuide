@@ -18,6 +18,15 @@
 | Root directory | `/` |
 | Node.js version | `22` |
 
+在 Cloudflare Pages 的生产环境变量中设置：
+
+```text
+VITEPRESS_SITE_URL=https://workbuddy.homes
+```
+
+仓库默认值同样使用正式域名，避免缺少环境变量时 canonical、Open Graph
+和 sitemap 回退到 `pages.dev` 域名。
+
 仓库中的 `.nvmrc` 会声明 Node.js 22。依赖通过 `package-lock.json` 固定，Cloudflare 构建时应使用 `npm ci` 安装。
 
 ## 本地使用同一套构建
@@ -36,4 +45,8 @@ npm run docs:preview
 
 ## 自定义域名
 
-首次部署成功后，可在 Pages 项目的 **Custom domains** 中添加域名。域名确定后，将环境变量 `VITEPRESS_SITE_URL` 设置为完整站点地址，并同步更新 README 中的在线阅读链接。
+正式自定义域名为 `https://workbuddy.homes`。如未来更换域名，需要同步更新
+`VITEPRESS_SITE_URL`、`docs/public/robots.txt`、README 在线阅读链接和各搜索引擎站点属性。
+
+`docs/public/_headers` 会为带内容指纹的 `/assets/*` 设置一年不可变缓存，
+并为社区图片、分享图和 favicon 设置一个月浏览器缓存。

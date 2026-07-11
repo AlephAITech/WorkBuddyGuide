@@ -1,13 +1,12 @@
 import { defineConfig } from "vitepress";
-import { withMermaid } from "vitepress-plugin-mermaid";
 
 import { bluebookSidebar } from "./sidebar";
+import { configureMermaidMarkdown } from "./mermaid-markdown";
 import { createPageDescription, createSeoHead } from "./seo";
 
-const siteUrl = process.env.VITEPRESS_SITE_URL || "https://workbuddy-guide.pages.dev";
+const siteUrl = process.env.VITEPRESS_SITE_URL || "https://workbuddy.homes";
 
-export default withMermaid(
-  defineConfig({
+export default defineConfig({
     lang: "zh-CN",
     title: "WorkBuddy 实战蓝皮书",
     titleTemplate: ":title · WorkBuddy 实战蓝皮书",
@@ -23,6 +22,7 @@ export default withMermaid(
     }),
     transformHead: (context) => createSeoHead(siteUrl, context),
     head: [
+      ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
       ["meta", { name: "theme-color", content: "#d8f238" }],
       ["meta", { name: "author", content: "WorkBuddy Guide Contributors" }],
       [
@@ -35,23 +35,13 @@ export default withMermaid(
       ],
     ],
     markdown: {
+      config: configureMermaidMarkdown,
       image: {
         lazyLoading: true,
       },
       theme: {
         light: "github-light",
         dark: "github-dark",
-      },
-    },
-    mermaid: {
-      theme: "base",
-      themeVariables: {
-        primaryColor: "#eef6d1",
-        primaryTextColor: "#12140f",
-        primaryBorderColor: "#355e18",
-        lineColor: "#62675e",
-        secondaryColor: "#f5f7f0",
-        tertiaryColor: "#ffffff",
       },
     },
     themeConfig: {
@@ -98,5 +88,4 @@ export default withMermaid(
         copyright: "Copyright © 2026 WorkBuddy Guide Contributors",
       },
     },
-  }),
-);
+  });

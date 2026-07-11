@@ -1,9 +1,10 @@
+import { defineAsyncComponent } from "vue";
 import DefaultTheme from "vitepress/theme";
 import GroupQrMenu from "./components/GroupQrMenu.vue";
 import HomePage from "./components/HomePage.vue";
 
 import "@fontsource/silkscreen/400.css";
-import "@hackernoon/pixel-icon-library/fonts/iconfont.css";
+import "./iconfont.css";
 import "./style.css";
 
 export default {
@@ -11,5 +12,9 @@ export default {
   enhanceApp({ app }) {
     app.component("GroupQrMenu", GroupQrMenu);
     app.component("HomePage", HomePage);
+    app.component(
+      "MermaidDiagram",
+      defineAsyncComponent(() => import("./components/MermaidDiagram.vue")),
+    );
   },
 };

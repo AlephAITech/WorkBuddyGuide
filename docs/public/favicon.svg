@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="WorkBuddy Guide">
+  <rect width="64" height="64" rx="8" fill="#d8f238"/>
+  <path fill="#11130e" d="M8 8h48v48H8z"/>
+  <path fill="#d8f238" d="M14 15h7v23h7V22h7v16h7V15h7v30h-7v6H14z"/>
+  <path fill="#fff" d="M21 44h14v7H21z"/>
+</svg>

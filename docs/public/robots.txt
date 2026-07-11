@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://workbuddy-guide.pages.dev/sitemap.xml
+Sitemap: https://workbuddy.homes/sitemap.xml

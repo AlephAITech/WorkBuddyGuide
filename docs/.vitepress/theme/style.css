@@ -27,6 +27,8 @@
   --vp-nav-bg-color: rgba(245, 247, 240, 0.92);
   --vp-sidebar-bg-color: #f0f3eb;
   --vp-code-block-bg: #161913;
+  --vp-code-block-color: #f4f7ef;
+  --vp-code-lang-color: #d8f238;
   --vp-code-line-highlight-color: rgba(216, 242, 56, 0.12);
   --vp-custom-block-tip-bg: #eff7c9;
   --vp-custom-block-tip-border: #355e18;
@@ -59,6 +61,8 @@
   --vp-nav-bg-color: rgba(16, 18, 14, 0.92);
   --vp-sidebar-bg-color: #141712;
   --vp-code-block-bg: #090a08;
+  --vp-code-block-color: #f7f9f2;
+  --vp-code-lang-color: #d8f238;
   --vp-custom-block-tip-bg: #242b16;
   --vp-custom-block-tip-border: #d8f238;
 }
@@ -471,7 +475,7 @@ button {
 
 .wb-reading-card__content small {
   margin-bottom: 8px;
-  color: #72920e;
+  color: #506d08;
   font-family: var(--wb-pixel);
   font-size: 10px;
 }
@@ -818,12 +822,29 @@ button {
   border: 1px solid #33382f;
   border-top: 4px solid var(--wb-acid);
   border-radius: 4px;
+  color: var(--vp-code-block-color);
   box-shadow: 4px 4px 0 rgba(17, 19, 14, 0.12);
 }
 
 .vp-doc div[class*="language-"]::before {
+  color: var(--vp-code-lang-color);
   font-family: var(--wb-pixel);
   font-size: 9px;
+  opacity: 1;
+}
+
+.vp-doc div[class*="language-"] pre,
+.vp-doc div[class*="language-"] code {
+  color: var(--vp-code-block-color);
+}
+
+html:not(.dark) .vp-doc .vp-code span {
+  color: var(--shiki-dark, var(--shiki-light, var(--vp-code-block-color)));
+}
+
+.vp-doc div[class*="language-"] .copy.copied::before,
+.vp-doc div[class*="language-"] .copy.copied::after {
+  color: var(--wb-acid);
 }
 
 .vp-doc code:not(div[class*="language-"] code) {
@@ -1010,6 +1031,8 @@ button {
 @media (max-width: 760px) {
   .VPNavBar {
     height: 64px;
+    background: var(--wb-paper) !important;
+    backdrop-filter: none;
   }
 
   .VPNavBarTitle .title {
@@ -1026,7 +1049,7 @@ button {
 
   .wb-hero__copy h1 {
     margin-top: 18px;
-    font-size: clamp(43px, 13vw, 58px);
+    font-size: clamp(36px, 10.8vw, 48px);
     line-height: 1.06;
   }
 
@@ -1118,6 +1141,14 @@ button {
 
   .wb-section {
     padding: 48px 4px 0;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 760px;
+  }
+
+  .wb-system,
+  .wb-community {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 620px;
   }
 
   .wb-section__heading {

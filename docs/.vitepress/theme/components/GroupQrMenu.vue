@@ -17,6 +17,8 @@ withDefaults(
         width="396"
         height="396"
         alt="WorkBuddy 微信交流群二维码"
+        loading="lazy"
+        decoding="async"
       />
     </div>
     <figcaption>
