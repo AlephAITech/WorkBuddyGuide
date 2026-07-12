@@ -17,7 +17,6 @@
   },
   "devDependencies": {
     "@fontsource/silkscreen": "^5.2.8",
-    "@hackernoon/pixel-icon-library": "^1.1.0",
     "mermaid": "11.16.0",
     "vitepress": "1.6.4"
   }

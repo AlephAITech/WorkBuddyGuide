@@ -1314,3 +1314,20 @@ html:not(.dark) .vp-doc .vp-code span {
 .VPHome .vp-doc .wb-community h2::before {
   display: none;
 }
+.wb-pixel-icon-sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.wb-pixel-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex: 0 0 auto;
+  overflow: visible;
+  fill: currentColor;
+  line-height: 1;
+  vertical-align: top;
+}

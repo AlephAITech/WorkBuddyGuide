@@ -4,7 +4,6 @@ import GroupQrMenu from "./components/GroupQrMenu.vue";
 import HomePage from "./components/HomePage.vue";
 
 import "./fonts.css";
-import "./iconfont.css";
 import "./style.css";
 
 const scrollActiveSidebarItemIntoView = () => {
