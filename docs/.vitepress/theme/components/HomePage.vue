@@ -12,7 +12,7 @@ import PixelIconSprite from "./PixelIconSprite.vue";
           <p class="wb-pixel-label">OPEN-SOURCE · 27 CHAPTERS · 2026</p>
           <h1 id="wb-hero-title" class="wb-hero__title--bluebook">WorkBuddy蓝皮书</h1>
           <p class="wb-hero__summary">
-            WorkBuddy能干嘛？一套以真实工作为主线的WorkBuddy实践路径。带你从0到1先用起来，再从1到100把每次成功沉淀为可复用的工作系统，真正把AI变成生产力！
+            WorkBuddy 能做什么？这是一套以真实工作为主线的中文使用手册与实战指南，带你从安装入门、Skills 与连接器，到自动化和多智能体工作流，把每次成功沉淀为可复用的工作系统。
           </p>
           <div class="wb-hero__actions">
             <a class="wb-button wb-button--primary" href="/bluebook/">

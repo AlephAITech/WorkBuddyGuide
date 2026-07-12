@@ -1,8 +1,8 @@
 ---
 layout: home
-title: WorkBuddy 实战蓝皮书
+title: WorkBuddy 教程与使用指南｜WorkBuddy 实战蓝皮书
 titleTemplate: false
-description: 从第一项任务到一支 AI 团队，把 WorkBuddy 真正用进工作。
+description: 系统的 WorkBuddy 中文教程与使用指南，涵盖安装入门、真实案例、Skills、连接器、自动化和多智能体实践。
 ---
 
 <HomePage />

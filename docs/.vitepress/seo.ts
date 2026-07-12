@@ -125,13 +125,21 @@ function extractDescription(markdown: string, fallback: string): string {
 }
 
 function breadcrumbName(segment: string): string {
+  let decodedSegment = segment;
+
+  try {
+    decodedSegment = decodeURIComponent(segment);
+  } catch {
+    // Keep the original segment when it is not valid URI-encoded text.
+  }
+
   const labels: Record<string, string> = {
-    bluebook: "蓝皮书",
-    community: "社区",
-    "reading-guide": "阅读指南",
+    bluebook: "WorkBuddy 实战蓝皮书",
+    community: "社区共创",
+    "reading-guide": "WorkBuddy 学习指南",
   };
 
-  return labels[segment] || segment.replace(/[-_]/g, " ");
+  return labels[decodedSegment] || decodedSegment.replace(/[-_]/g, " ");
 }
 
 function createBreadcrumbs(
@@ -239,10 +247,14 @@ export function createSeoHead(
     inLanguage: "zh-CN",
     publisher: { "@id": `${siteUrl}/#organization` },
   };
+  const breadcrumbTitle =
+    typeof pageData.frontmatter.breadcrumbTitle === "string"
+      ? pageData.frontmatter.breadcrumbTitle
+      : pageData.title;
   const breadcrumbs = createBreadcrumbs(
     siteUrl,
     page,
-    pageData.title,
+    breadcrumbTitle,
     canonicalUrl,
   );
   const pageEntity = isHome

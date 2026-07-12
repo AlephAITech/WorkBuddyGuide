@@ -1,8 +1,15 @@
-# 如何阅读这本蓝皮书
+---
+title: WorkBuddy 阅读与学习指南｜从入门到团队落地
+titleTemplate: false
+description: WorkBuddy 中文学习指南与阅读路线，从下载安装、第一个任务和 Skill 入门，到真实案例、自动化、多 Agent 系统与团队落地。
+breadcrumbTitle: 阅读指南
+---
 
-这本书不是一套必须从头背到尾的功能说明。它更像一张工作地图：先完成一个真实任务，再沿着案例、方法和团队协作逐步深入。
+# WorkBuddy 阅读与学习指南：从入门到团队落地
 
-## 第一次使用 WorkBuddy
+这是一条面向新手、任务实践者和团队负责人的 WorkBuddy 学习路线。你不必从头背功能：先找到当前最接近的工作问题，完成一项真实任务，再沿着使用手册、实战案例、进阶系统和团队落地逐步深入。
+
+## WorkBuddy 新手入门路线
 
 从[第一篇：先把 WorkBuddy 用起来](/bluebook/%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/)开始，依次完成：
 
@@ -14,7 +21,7 @@
 
 建议边读边做，不要只浏览截图。每完成一章，至少留下一个可复用的提示词、模板或操作记录。
 
-## 已经有明确工作任务
+## 按真实任务选择 WorkBuddy 教程
 
 直接进入[第二篇：案例篇](/bluebook/%E7%AC%AC%E4%BA%8C%E7%AF%87%20%E6%A1%88%E4%BE%8B%E7%AF%87%EF%BC%9A%E4%BB%8E%E4%B8%80%E9%A1%B9%E4%BB%BB%E5%8A%A1%E5%88%B0%E4%B8%80%E6%94%AF%20AI%20%E5%9B%A2%E9%98%9F/)，按问题选择章节：
 
@@ -26,7 +33,7 @@
 
 案例跑通后，再回到第三篇，把你的做法整理为 Skill、自动化或多 Agent 系统。
 
-## 想把 WorkBuddy 用进团队
+## WorkBuddy 团队落地路线
 
 重点阅读[第三篇：进阶篇](/bluebook/%E7%AC%AC%E4%B8%89%E7%AF%87%20%E8%BF%9B%E9%98%B6%E7%AF%87%EF%BC%9A%E6%8A%8A%E6%A1%88%E4%BE%8B%E5%8F%98%E6%88%90%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B7%A5%E4%BD%9C%E7%B3%BB%E7%BB%9F/)与[第四篇：岗位与行业落地](/bluebook/%E7%AC%AC%E5%9B%9B%E7%AF%87%20%E5%B2%97%E4%BD%8D%E4%B8%8E%E8%A1%8C%E4%B8%9A%E8%90%BD%E5%9C%B0/)。
 
