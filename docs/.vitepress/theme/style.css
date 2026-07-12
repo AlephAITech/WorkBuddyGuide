@@ -727,6 +727,52 @@ button {
   max-width: 800px !important;
 }
 
+.wb-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.vp-doc .wb-contact-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+  padding: 8px 8px 12px;
+  border: 1px solid var(--wb-line);
+  border-radius: 4px;
+  color: var(--wb-ink);
+  background: #fff;
+  text-decoration: none;
+  transition: border-color 140ms ease, box-shadow 140ms ease,
+    transform 140ms ease;
+}
+
+.vp-doc .wb-contact-card:hover {
+  border-color: var(--wb-ink);
+  box-shadow: 4px 4px 0 var(--wb-acid);
+  transform: translate(-2px, -2px);
+}
+
+.wb-contact-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  margin: 0;
+  border: 0;
+  border-radius: 2px;
+  object-fit: contain;
+  background: #fff;
+}
+
+.wb-contact-card span {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
 .vp-doc {
   color: var(--wb-ink);
   font-size: 16px;
@@ -1207,6 +1253,19 @@ html:not(.dark) .vp-doc .vp-code span {
   .wb-community__icon {
     right: 10px;
     font-size: 130px;
+  }
+
+  .wb-contact-grid {
+    grid-template-columns: repeat(4, 180px);
+    margin-right: -24px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+  }
+
+  .wb-contact-card {
+    scroll-snap-align: start;
   }
 
   .vp-doc > h1:first-child,
