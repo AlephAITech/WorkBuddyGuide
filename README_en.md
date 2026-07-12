@@ -93,3 +93,7 @@ Thanks to the authors who create and maintain The WorkBuddy Bluebook. Click a ca
 ## Disclaimer
 
 This is a community-maintained WorkBuddy practice guide. For time-sensitive product details—including features, UI, pricing, availability, and security policies—refer to official WorkBuddy sources.
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE). You may use, copy, modify, and distribute it, provided that the original copyright notice and license text are retained.
