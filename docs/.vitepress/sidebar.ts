@@ -1,3 +1,6 @@
+import { readFileSync, readdirSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+
 import type { DefaultTheme } from "vitepress";
 
 const route = (...segments: string[]): string =>
@@ -92,4 +95,49 @@ export const bluebookSidebar: DefaultTheme.Sidebar = {
       ],
     },
   ],
+};
+
+const casesDirectory = fileURLToPath(
+  new URL("../cases/submissions/", import.meta.url),
+);
+
+const caseItems = readdirSync(casesDirectory, { withFileTypes: true })
+  .filter((entry) => entry.isDirectory())
+  .map((entry) => {
+    const markdown = readFileSync(
+      new URL(`../cases/submissions/${entry.name}/index.md`, import.meta.url),
+      "utf8",
+    );
+    const frontmatter = markdown.match(/^---\s*\n([\s\S]*?)\n---/)?.[1] || "";
+    const readField = (field: string): string =>
+      frontmatter
+        .match(new RegExp(`^${field}:\\s*(.+)$`, "m"))?.[1]
+        ?.trim()
+        .replace(/^['"]|['"]$/g, "") || "";
+
+    return {
+      date: readField("date"),
+      item: {
+        text: readField("title") || entry.name,
+        link: encodeURI(`/cases/submissions/${entry.name}/`),
+      } satisfies DefaultTheme.SidebarItem,
+    };
+  })
+  .sort((left, right) => right.date.localeCompare(left.date))
+  .map(({ item: caseItem }) => caseItem);
+
+const casesSidebar: DefaultTheme.SidebarItem[] = [
+  { text: "案例集首页", link: "/cases/" },
+  { text: "如何提交 Case", link: "/community/case-contributing" },
+  {
+    text: "社区 Case",
+    collapsed: false,
+    items: caseItems,
+  },
+];
+
+export const siteSidebar: DefaultTheme.Sidebar = {
+  ...bluebookSidebar,
+  "/cases/": casesSidebar,
+  "/community/case-contributing": casesSidebar,
 };

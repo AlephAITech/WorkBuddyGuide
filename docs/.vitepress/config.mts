@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
 
-import { bluebookSidebar } from "./sidebar";
+import { siteSidebar } from "./sidebar";
 import { configureMermaidMarkdown } from "./mermaid-markdown";
 import { createPageDescription, createSeoHead } from "./seo";
 
@@ -17,9 +17,16 @@ export default defineConfig({
     sitemap: {
       hostname: siteUrl,
     },
-    transformPageData: (pageData, { siteConfig }) => ({
-      description: createPageDescription(siteConfig.srcDir, pageData),
-    }),
+    transformPageData: (pageData, { siteConfig }) => {
+      if (pageData.relativePath.startsWith("cases/")) {
+        pageData.frontmatter.aside = false;
+        pageData.frontmatter.outline = false;
+      }
+
+      return {
+        description: createPageDescription(siteConfig.srcDir, pageData),
+      };
+    },
     transformHead: (context) => createSeoHead(siteUrl, context),
     head: [
       ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
@@ -56,14 +63,15 @@ export default defineConfig({
       nav: [
         { text: "首页", link: "/" },
         { text: "开始阅读", link: "/bluebook/" },
+        { text: "案例集", link: "/cases/" },
+        { text: "帮你解决", link: "/help/" },
         { text: "阅读指南", link: "/reading-guide" },
-        { text: "参与共创", link: "/community/contributing" },
         {
           text: "交流群",
           items: [{ component: "GroupQrMenu" }],
         },
       ],
-      sidebar: bluebookSidebar,
+      sidebar: siteSidebar,
       socialLinks: [
         { icon: "github", link: "https://github.com/AlephAITech/WorkBuddyGuide" },
       ],

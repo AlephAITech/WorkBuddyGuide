@@ -29,6 +29,20 @@
 
 请优先修改 `index.md`。新增素材时使用有意义的文件名，并尽量压缩体积，但不要牺牲可读性。
 
+## 提交社区 Case
+
+真实的 WorkBuddy 实践案例请优先提交到：
+
+```text
+docs/cases/submissions/<case-slug>/
+├── index.md
+└── assets/
+```
+
+复制 `.github/CASE_TEMPLATE.md` 作为正文起点，并在创建 PR 时使用 `.github/PULL_REQUEST_TEMPLATE/case.md`。案例必须描述场景、使用的 Skills、操作过程、实际效果、验收标准和安全边界。
+
+案例集合首页会在构建时自动读取这些目录，不需要手工修改 `docs/cases/index.md`。完整说明见网站的 [Case 投稿指南](https://workbuddy.homes/community/case-contributing)。
+
 ## 本地验证
 
 ```bash
