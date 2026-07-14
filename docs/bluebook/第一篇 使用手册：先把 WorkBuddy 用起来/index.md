@@ -1,9 +1,5 @@
 # 第一篇 使用手册：先把 WorkBuddy 用起来
 
-
-
-## 子页面
-
 - [第 1 章 初识 WorkBuddy](%E7%AC%AC%201%20%E7%AB%A0%20%E5%88%9D%E8%AF%86%20WorkBuddy/index.md)
 - [第 2 章 WorkBuddy的下载、安装、登录与更新](%E7%AC%AC%202%20%E7%AB%A0%20WorkBuddy%E7%9A%84%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E7%99%BB%E5%BD%95%E4%B8%8E%E6%9B%B4%E6%96%B0/index.md)
 - [第 3 章 WorkBuddy 的主界面、任务与工作区](%E7%AC%AC%203%20%E7%AB%A0%20WorkBuddy%20%E7%9A%84%E4%B8%BB%E7%95%8C%E9%9D%A2%E3%80%81%E4%BB%BB%E5%8A%A1%E4%B8%8E%E5%B7%A5%E4%BD%9C%E5%8C%BA/index.md)

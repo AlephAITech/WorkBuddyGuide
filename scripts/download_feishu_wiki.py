@@ -212,7 +212,7 @@ def parse_assets(node: Node, xml_content: str) -> list[Asset]:
 def replace_subpages(markdown: str, node: Node) -> str:
     if not node.children:
         return re.sub(r"<sub-page-list\b[^>]*>.*?</sub-page-list>", "", markdown, flags=re.S)
-    lines = ["## 子页面", ""]
+    lines: list[str] = []
     assert node.directory is not None
     for child in node.children:
         assert child.directory is not None

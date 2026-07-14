@@ -1,8 +1,4 @@
 # 第四篇 岗位与行业落地
 
-
-
-## 子页面
-
 - [第 26 章 岗位路线图：不同岗位如何把 WorkBuddy 用深](%E7%AC%AC%2026%20%E7%AB%A0%20%E5%B2%97%E4%BD%8D%E8%B7%AF%E7%BA%BF%E5%9B%BE%EF%BC%9A%E4%B8%8D%E5%90%8C%E5%B2%97%E4%BD%8D%E5%A6%82%E4%BD%95%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E6%B7%B1/index.md)
 - [第 27 章 行业路线图：从通用能力到行业工作流](%E7%AC%AC%2027%20%E7%AB%A0%20%E8%A1%8C%E4%B8%9A%E8%B7%AF%E7%BA%BF%E5%9B%BE%EF%BC%9A%E4%BB%8E%E9%80%9A%E7%94%A8%E8%83%BD%E5%8A%9B%E5%88%B0%E8%A1%8C%E4%B8%9A%E5%B7%A5%E4%BD%9C%E6%B5%81/index.md)
