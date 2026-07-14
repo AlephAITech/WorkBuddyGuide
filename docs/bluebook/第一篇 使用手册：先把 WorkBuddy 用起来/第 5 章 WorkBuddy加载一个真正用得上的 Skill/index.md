@@ -30,6 +30,7 @@ my-skill/
 | `references/` | 否 | 存放参考资料，如风格指南、业务规则、API 文档等。Agent 在需要时读取，用于补充上下文。 |
 | `assets/` | 否 | 存放模板、图片、数据文件等资源。Agent 在生成输出时引用，例如用 `.pptx` 模板生成 PPT。 |
 
+`SKILL.md` 样例：
 ```Markdown
 ---
 name: tech-article-writing
