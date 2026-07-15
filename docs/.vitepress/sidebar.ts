@@ -123,7 +123,7 @@ const caseItems = readdirSync(casesDirectory, { withFileTypes: true })
       } satisfies DefaultTheme.SidebarItem,
     };
   })
-  .sort((left, right) => right.date.localeCompare(left.date))
+  .sort((left, right) => left.date.localeCompare(right.date))
   .map(({ item: caseItem }) => caseItem);
 
 const casesSidebar: DefaultTheme.SidebarItem[] = [
