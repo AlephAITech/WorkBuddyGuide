@@ -723,6 +723,11 @@ button {
   background: var(--wb-acid);
 }
 
+.dark .VPSidebarItem.is-active > .item .link {
+  color: var(--wb-ink) !important;
+  background: var(--wb-acid-soft);
+}
+
 .VPSidebarItem.is-active > .item .link::before {
   position: absolute;
   top: 0;
