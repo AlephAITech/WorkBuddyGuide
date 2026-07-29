@@ -32,6 +32,8 @@ flowchart LR
 
 ## 可用的资讯类 Skill
 
+![](assets/001_skillhub-info-skills_IzOlb7IQbo.png)
+
 大致可以分成六类：新闻、AI 行业、开发者趋势、科研论文、内容监控、事实核查与搜索补证。
 
 | Skill / 工具 | 适合通知什么 | 本章怎么用 |
