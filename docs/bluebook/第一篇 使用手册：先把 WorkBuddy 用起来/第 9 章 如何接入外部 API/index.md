@@ -27,3 +27,5 @@ WorkBuddy支持接入其他 LLM 的 API，以及 Coding Plan、Token Plan 等套
 或者接入本地ollama模型，需先本地启动 Ollama（默认端口 11434，OpenAI 兼容接口），本地模型优势为数据不出本机、可离线、零 Token 成本。
 
 ![](assets/006_image_BSnBbYupuo.png)
+
+也可以接入 [OrcaRouter](https://www.orcarouter.ai) 聚合网关，添加模型时输入你的 OrcaRouter API Key（以 `sk-orca-` 开头）即可。OrcaRouter 是 OpenAI 兼容的 AI 网关，在一个接口下聚合多家模型（如 `openai/gpt-5.5`、`anthropic/claude-opus-4.8`、`google/gemini-3.5-flash` 等），并支持自适应路由、自动故障转移和零加价推理。默认模型可以选 `orcarouter/auto`，它会根据任务自动选择最合适的模型。官网：[https://www.orcarouter.ai](https://www.orcarouter.ai)
