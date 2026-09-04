@@ -23,6 +23,8 @@ The recommended reading experience is **[workbuddy.homes](https://workbuddy.home
 
 The book is currently written primarily in Simplified Chinese. English contributions and translation proposals are welcome.
 
+For broader discovery across Skills, MCP servers, connectors, tools, and community projects, see the independently maintained bilingual [Awesome WorkBuddy](https://github.com/sandbaseai/awesome-workbuddy) directory. Its executable-resource entries document license, credential, file-permission, and data-flow boundaries; still verify each upstream project before use.
+
 ## What Is Inside
 
 | Section | Topics |

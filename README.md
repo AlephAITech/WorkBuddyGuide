@@ -25,6 +25,8 @@
 
 GitHub 适合了解项目和参与贡献；真正阅读蓝皮书时，网站体验更完整。
 
+需要横向查找更多 Skills、MCP、连接器、工具和社区项目时，可以使用独立维护的 [Awesome WorkBuddy](https://github.com/sandbaseai/awesome-workbuddy) 双语目录；其中的可执行资源会标注许可证、凭据、文件权限与数据流边界，使用前仍需复核对应上游项目。
+
 ## 你会在这里看到什么
 
 | 部分 | 内容 |
