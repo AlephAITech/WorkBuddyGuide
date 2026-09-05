@@ -24,6 +24,7 @@
 推荐访问 **[workbuddy.homes](https://workbuddy.homes/)** 阅读。网站提供完整侧边栏、全文搜索、章节目录、深色模式、流程图和移动端适配。
 
 GitHub 适合了解项目和参与贡献；真正阅读蓝皮书时，网站体验更完整。
+需要按安全边界审查和对比 Skills、MCP 与生态项目时，可参考 [awesome-workbuddy](https://github.com/sandbaseai/awesome-workbuddy) 的双语资源索引与审查记录。
 
 ## 你会在这里看到什么
 
