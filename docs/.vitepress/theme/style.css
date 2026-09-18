@@ -808,6 +808,10 @@ button {
   background: var(--wb-acid);
 }
 
+.VPSidebarItem.is-active > .item .link > .text {
+  color: #11130e !important;
+}
+
 .VPSidebarItem.is-active > .item .link::before {
   position: absolute;
   top: 0;
