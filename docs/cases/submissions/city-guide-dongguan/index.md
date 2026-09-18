@@ -1,3 +1,21 @@
+---
+title: 朝霞带你游东莞：一句话生成一座城市的数据驱动名片
+summary: 用 WorkBuddy 的网站设计能力，把城市官方资料整理成可交互、可复用的单文件 HTML 城市名片。
+author: 0769-zhaoxia
+date: "2026-08-29"
+category: 创意开发
+difficulty: 入门
+aside: false
+outline: false
+skills:
+  - 网站设计
+tags:
+  - 城市名片
+  - 网站设计
+  - HTML
+  - 数据可视化
+---
+
 # 朝霞带你游东莞：一句话生成一座城市的数据驱动名片
 
 > 本案例演示：如何用「网站设计」能力，把一座城市的官方资料整理成一份可交互、可换城市的单文件 HTML 城市名片。成品为「朝霞带你游东莞」，页面结构完全由数据驱动，换任何城市只需替换一个数据对象。
@@ -79,15 +97,15 @@
 - **城市气质**：藏茶之都、篮球之城、潮玩之都等 6 张带线性图标的气质卡
 - **大学资源**：10 所高校卡片
 
-![WorkBuddy 执行效果——首屏](./hero.jpg)
+![WorkBuddy 执行效果——首屏](./assets/hero.png)
 
-![WorkBuddy 执行效果——千年脉络](./timeline.jpg)
+![WorkBuddy 执行效果——千年脉络](./assets/timeline.png)
 
-![WorkBuddy 执行效果——湾区区位](./location.jpg)
+![WorkBuddy 执行效果——湾区区位](./assets/location.png)
 
-![WorkBuddy 执行效果——城市气质](./vibe.jpg)
+![WorkBuddy 执行效果——城市气质](./assets/vibe.png)
 
-![WorkBuddy 执行效果——大学资源](./campus.jpg)
+![WorkBuddy 执行效果——大学资源](./assets/campus.png)
 
 ## 验收标准
 
@@ -118,4 +136,3 @@
 - **换用途**：删掉「千年脉络」或「行程建议」等板块，改成企业介绍页、产品发布会长页、活动宣传页。
 - **做同款**：把本案例的提示词中的 `{{城市}}` 换成目标城市，即可一键生成对应版本。
 - **配自动化**：可进一步配置定时任务，让核心数据定期更新，形成城市信息的自动维护页。
-
