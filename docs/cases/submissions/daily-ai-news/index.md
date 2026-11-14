@@ -51,7 +51,7 @@ AIHot 负责提供和检索候选资讯；哪些内容值得重点关注、怎�
 
 - 已经可以正常使用 WorkBuddy。
 - WorkBuddy 可以访问外部网页。
-- AIHot Skill 地址：`https://aihot.virxact.com/aihot-skill/`
+- AIHot Skill 地址：`https://aihot.news/aihot-skill/README.md`
 
 AIHot 来自外部地址。安装前应查看来源域名和 Skill 内容，并让 WorkBuddy 先执行安全检查。不要安装来源不明、要求异常权限或包含可疑脚本的 Skill。
 
@@ -60,7 +60,7 @@ AIHot 来自外部地址。安装前应查看来源域名和 Skill 内容，并�
 打开一个新的 WorkBuddy 任务，直接输入：
 
 ```text
-帮我安装这个 skill：https://aihot.virxact.com/aihot-skill/
+帮我安装这个 skill：https://aihot.news/aihot-skill/README.md
 ```
 
 WorkBuddy 会先获取 Skill 内容，并调用 Skill 安全检查流程。确认来源、权限和将要执行的内容没有异常后，再继续安装。

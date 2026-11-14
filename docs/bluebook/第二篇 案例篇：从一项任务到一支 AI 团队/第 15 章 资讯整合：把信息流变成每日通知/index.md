@@ -81,7 +81,7 @@ AI 行业信息更新快，AIHOT 可以作为一个现成的信息源。它面�
 安装aihot skill，
 
 ```Plain Text
-帮我安装这个 skill：https://aihot.virxact.com/aihot-skill/
+帮我安装这个 skill：https://aihot.news/aihot-skill/README.md
 ```
 
 ![](assets/004_image_CG3xbVWBlo.png)
